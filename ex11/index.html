@@ -16,6 +16,14 @@
         text-indent:2em;
       	text-align:left;
       }
+	  .links{
+        margin-top:50px;
+      	line-height:50px;
+		margin-left: 600px;
+		  justify-content: flex-end;
+		  position:absolute;
+		  text-align: center;
+      }
 			#main{
 				width:100%;
 				height:100%;
@@ -158,6 +166,41 @@
         
 		text-align: center;
       }
+	  .image_list{
+	    text-align:center;
+      	margin-top:10%;
+      }
+      .image_list img{
+	    width:300px;
+		height: 200px;
+      	opacity:0.7;
+      }
+      .image_list img:hover{
+      	opacity:1;
+      }
+	  #bg{
+      	position:absolute;
+      	top:0px;
+      	left:0px;
+      	
+      	background-color:#000000;
+	    width:100%;
+      	height:100%;
+      	
+      	background-repeat:no-repeat;
+      	background-position:center;
+      	background-size:80% auto;
+      	
+      	display:none;
+      }
+      .close_btn{
+	    position:absolute;
+      	top:30px;
+      	right:30px;
+      	cursor:pointer;
+      	
+      	display:none;
+      }
 	
 		</style>
 	</head>
@@ -182,28 +225,25 @@
 			<div id="cont">
 				<div id="content" style="">公告：亲爱的国漫爱好者! 由于机房线路调整，A大厅将于2023年5月20日凌晨0:00~6:00（周一）进行维护，很抱歉带来这些不便，感谢您对我们的支持。</div>
 			</div>
-			<div class="content2">
-			<p>中国动漫博物馆位于杭州市滨江区白马湖路375号，是国家广电总局和中国动画学会批准的“国字号”动漫博物馆，隶属于中共杭州市委宣传部，为公益一类事业单位。</p>
-			<p>动漫博物馆积极与知名动漫机构和动漫专家接洽，并向全社会征集藏品。国内著名动画艺术家严定宪、林文肖、曲建方、蔡渊澜、周克勤、阎善春，日本著名漫画家尾田荣一郎，香港著名漫画家黄玉郎，以及香港漫画协会等代表向中国动漫博物馆捐赠近百件藏品。此外，上世纪七八十年代国产动画片《大闹天宫》、《阿凡提》的珍贵原稿，也被收藏进动漫博物馆。</p>
-			<p>从6个蘑菇到1朵祥云
-				原先的博物馆方案是6个大小不一、紧挨着的蘑菇形建筑群，由荷兰建筑师设计，看看很好看，但管委会说，做起来很难，而且最关键的是，由于大量的空间都“悬空”集中在上部，下面只有几根“蘑菇”柱子，在消防安全上，也过不了关，万一发生火灾等事故，逃生通道不够。所以，最后经专家审议，蘑菇方案被放弃。 [1]
-				这座经国家广播电视总局批准的首家“国字号”动漫博物馆，主体建筑面积30382平方米，建筑外形宛若一朵白色的“祥云”。</p>
-		</div>
+			<div class="links">
 				
+				<a href="https://alphaxuan.github.io/" target="_blank">作品详情页</a>
+				<a href="https://trae11wjh.github.io/ccam/" target="_blank">To The End</a>
+				<a href="https://hifumi0721.github.io/ex/" target="_blank">场馆图</a>
+				<a href="https://trae11wjh.github.io/ccam1/" target="_blank">公告通知</a>
+			  </div>
+			
+				<div class="image_list">
+			<img src="https://img1.baidu.com/it/u=1567722230,1210404242&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=888" title="点击查看大图">
+			<img src="https://img1.baidu.com/it/u=1076114251,3800368428&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=370" title="点击查看大图"><br>
+			<img src="https://img1.baidu.com/it/u=3085677715,3100120262&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800" title="点击查看大图">
+			<img src="https://img0.baidu.com/it/u=2068141504,3481387720&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=280" title="点击查看大图">
+			
+		  </div>
 			
 			<div id="link">
-				<div>
-					<img src="https://img1.baidu.com/it/u=1567722230,1210404242&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=888" alt>
-				</div>
-				<div>
-					<img src="https://img1.baidu.com/it/u=1076114251,3800368428&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=370" alt>
-				</div>
-				<div>
-					<img src="https://img1.baidu.com/it/u=3085677715,3100120262&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800" alt>
-				</div>
-				<div>
-					<img src="https://img0.baidu.com/it/u=2068141504,3481387720&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=280" alt>
-				</div>
+				
+				
 				<div>
 					<img src="https://img1.baidu.com/it/u=1534953043,3662213053&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=575" alt>
 				</div>
@@ -216,6 +256,7 @@
 				<div>
 					<img src="https://www.ccam.org.cn/public/collection/s_20210528153625.jpg" alt>
 				</div>
+				
 				<div id="content1">
 			<img onmousemove="showImg()" id="imgOne" src="https://img1.baidu.com/it/u=1567722230,1210404242&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=888" style="left: 0px;">
 			<img onmouseout="hideImg()" id="imgTwo" src="https://img1.baidu.com/it/u=1076114251,3800368428&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=370" style="left: -390px;">
@@ -231,6 +272,10 @@
 				</div>
 			</div>
 		</div>
+		<div id="bg" style="background-image: url(&quot;http://www.yyfun001.com/res/jquery/images/131.jpg&quot;); display: none;"></div>
+		  <img class="close_btn" src="http://www.yyfun001.com/res/jquery/images/close_btn.png" title="关闭" />
+		  
+		<script type="text/javascript" src="http://www.yyfun001.com/res/jquery/jquery-1.8.3.min.js"></script>
 		
 		<script type="text/javascript">
       
@@ -249,6 +294,20 @@
 			}
 			move();
 		  
+		  </script>
+		  <script type="text/javascript">
+			$(function(){
+				$(".image_list img").click(function(){
+					$("#bg").css("background-image","url('"+this.src+"')");
+					$("#bg").css("display","block");
+					$(".close_btn").css("display","block");
+				});
+				
+				$(".close_btn").click(function(){
+					$("#bg").css("display","none");
+					$(".close_btn").css("display","none");
+				});
+			});
 		  </script>
 		  <script>
             var list = document.getElementById('list');
